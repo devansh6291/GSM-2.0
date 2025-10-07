@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GS Motorsports - Where Speed Meets Passion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/3bf4462a-6c1f-4701-bcd5-feaa22f97d0b.png" alt="GS Motorsports Logo">
+                <span>GS MOTORSPORTS</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="#events" class="nav-link">Events</a>
+                <a href="#news" class="nav-link">News</a>
+                <a href="#join" class="nav-link">Join Us</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/a5f78be6-8ec7-4df6-bd97-1b8d2447b1d1.png" alt="Racing Circuit">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-main">GS MOTORSPORTS</span>
+                    <span class="title-sub">Where Speed Meets Passion</span>
+                </h1>
+                <p class="hero-description">The premier motorsports club fostering racing passion and automotive excellence through hands-on experience, competitive racing, and innovative engineering projects.</p>
+                <button class="cta-button" onclick="scrollToSection('join')">JOIN THE TEAM</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About GS Motorsports</h2>
+                <p>Driving Innovation, Racing Excellence</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>GS Motorsports is the premier motorsports club at our college, dedicated to fostering a passion for racing and automotive engineering. We provide students with hands-on experience in motorsports, from karting competitions to Formula SAE projects.</p>
+                    <p>Our club combines the thrill of racing with cutting-edge engineering principles, creating an environment where students can develop technical skills, leadership abilities, and lifelong friendships united by a shared passion for speed.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/abf80f3e-4294-429e-bff3-feeeea1e6e8c.png" alt="F1 Racing Car">
+                </div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="7">0</div>
+                    <div class="stat-label">Years Active</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="45">0</div>
+                    <div class="stat-label">Active Members</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="12">0</div>
+                    <div class="stat-label">Annual Events</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-label">Championships Won</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our Team</h2>
+                <p>The driving force behind our success</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face" alt="Alex Rodriguez">
+                        <div class="member-overlay">
+                            <div class="helmet-icon">🏎️</div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Alex Rodriguez</h3>
+                        <p class="member-role">Team Captain</p>
+                        <p class="member-desc">Mechanical Engineering senior with 3 years racing experience</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b75b2c87?w=300&h=300&fit=crop&crop=face" alt="Sarah Chen">
+                        <div class="member-overlay">
+                            <div class="helmet-icon">⚙️</div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Sarah Chen</h3>
+                        <p class="member-role">Chief Engineer</p>
+                        <p class="member-desc">Automotive Engineering major, specializes in aerodynamics</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face" alt="Mike Thompson">
+                        <div class="member-overlay">
+                            <div class="helmet-icon">🏁</div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Mike Thompson</h3>
+                        <p class="member-role">Lead Driver</p>
+                        <p class="member-desc">Business student with professional karting background</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face" alt="Emma Davis">
+                        <div class="member-overlay">
+                            <div class="helmet-icon">📊</div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Emma Davis</h3>
+                        <p class="member-role">Technical Director</p>
+                        <p class="member-desc">Computer Science major, handles telemetry and data analysis</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face" alt="James Wilson">
+                        <div class="member-overlay">
+                            <div class="helmet-icon">🔧</div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>James Wilson</h3>
+                        <p class="member-role">Pit Crew Chief</p>
+                        <p class="member-desc">Mechanical Engineering, expert in vehicle maintenance</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&h=300&fit=crop&crop=face" alt="Lisa Kumar">
+                        <div class="member-overlay">
+                            <div class="helmet-icon">📱</div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Lisa Kumar</h3>
+                        <p class="member-role">Social Media Manager</p>
+                        <p class="member-desc">Marketing major, handles club communications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <div class="section-header">
+                <h2>Upcoming Events</h2>
+                <p>Racing calendar and workshops</p>
+            </div>
+            <div class="events-timeline">
+                <div class="event-card featured">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">NOV</span>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-type">Competition</div>
+                        <h3>Inter-College Karting Championship</h3>
+                        <p>Annual championship featuring teams from 8 colleges. Our biggest event of the year with professional timing systems and live streaming.</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">28</span>
+                        <span class="month">OCT</span>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-type">Workshop</div>
+                        <h3>Formula SAE Workshop</h3>
+                        <p>Technical workshop on vehicle dynamics and setup, covering suspension tuning and aerodynamic principles.</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">05</span>
+                        <span class="month">DEC</span>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-type">Experience</div>
+                        <h3>Track Day Experience</h3>
+                        <p>Open track day for members to test driving skills and experience high-speed racing in a controlled environment.</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">12</span>
+                        <span class="month">JAN</span>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-type">Training</div>
+                        <h3>Motorsports Safety Seminar</h3>
+                        <p>Essential safety training for all club members, covering racing safety protocols and emergency procedures.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest News</h2>
+                <p>Updates from the racing world</p>
+            </div>
+            <div class="news-grid">
+                <article class="news-article featured">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=400&fit=crop" alt="Championship Win">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">September 28, 2025</span>
+                            <span class="article-tag">Championship</span>
+                        </div>
+                        <h3>GS Motorsports Wins Regional Championship</h3>
+                        <p>Our team dominated the regional karting championship, securing first place with outstanding teamwork and strategic driving. The victory marks our third consecutive championship win.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="news-article">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=400&h=300&fit=crop" alt="Partnership">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">September 15, 2025</span>
+                            <span class="article-tag">Partnership</span>
+                        </div>
+                        <h3>New Partnership with Local Racing Circuit</h3>
+                        <p>We're excited to announce our partnership with Speedway Racing Circuit for exclusive member track days.</p>
+                    </div>
+                </article>
+                <article class="news-article">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop" alt="New Members">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-date">September 1, 2025</span>
+                            <span class="article-tag">Members</span>
+                        </div>
+                        <h3>Welcome New Members Fall 2025</h3>
+                        <p>We welcomed 12 new passionate members to GS Motorsports this semester, bringing fresh energy to our team.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Us Section -->
+    <section id="join" class="join">
+        <div class="container">
+            <div class="section-header">
+                <h2>Join GS Motorsports</h2>
+                <p>Become part of the racing legacy</p>
+            </div>
+            <div class="join-content">
+                <div class="join-benefits">
+                    <h3>Why Join Us?</h3>
+                    <ul class="benefits-list">
+                        <li>Access to exclusive track days and racing events</li>
+                        <li>Professional driving instruction and safety training</li>
+                        <li>Hands-on experience with racing technology and engineering</li>
+                        <li>Networking opportunities with industry professionals</li>
+                        <li>Leadership and teamwork skill development</li>
+                        <li>Priority registration for workshops and competitions</li>
+                    </ul>
+                </div>
+                <div class="join-form">
+                    <h3>Apply for Membership</h3>
+                    <form id="membership-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="major" name="major" required>
+                                <option value="">Select Your Major</option>
+                                <option value="mechanical">Mechanical Engineering</option>
+                                <option value="automotive">Automotive Engineering</option>
+                                <option value="computer">Computer Science</option>
+                                <option value="electrical">Electrical Engineering</option>
+                                <option value="business">Business</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="experience" name="experience" placeholder="Tell us about your motorsports experience (if any)" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="safety" name="safety" required>
+                                I commit to completing the mandatory safety orientation program
+                            </label>
+                        </div>
+                        <button type="submit" class="submit-button">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <strong>Email</strong>
+                            <p>info@gsmotorsports.edu</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>+1 (555) 123-RACE</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Location</strong>
+                            <p>Student Activities Center, Room 215</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/3bf4462a-6c1f-4701-bcd5-feaa22f97d0b.png" alt="GS Motorsports Logo">
+                    <span>GS MOTORSPORTS</span>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 GS Motorsports. All rights reserved. | Racing towards excellence since 2018.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
